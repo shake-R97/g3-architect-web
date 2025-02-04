@@ -1,7 +1,49 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
 
-nav > ul > li {
+ /* shared styles */
+
+.display-flex {
+    display: flex;
+}
+
+.bg-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.dark-2 {
+    color: rgba(66, 66, 66, 1);
+}
+
+.dark-3 {
+    color: rgba(114, 114, 114, 1);
+}
+
+
+ /* nav styles */
+
+.nav-bar {
+    justify-content: space-between;
+}
+
+.nav-item {
     list-style: none;
+    padding-right: 18px;
+}
+.nav-link {
+    text-decoration: none;
+
+}
+
+.nav-bar , .banner {
+    max-width: 1440px ;
+    margin: 0 auto;
 }
